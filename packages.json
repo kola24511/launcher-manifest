@@ -1,5 +1,5 @@
 {
-  "community": [
+  "official": [
     {
       "id": "community.hq_icons",
       "name": "HQ Icons",
@@ -16,5 +16,6 @@
       "status": "unverified",
       "parseMode": "github_repo"
     }
-  ]
+  ],
+    "community": []
 }

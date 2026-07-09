@@ -1,0 +1,20 @@
+{
+  "community": [
+    {
+      "id": "community.hq_icons",
+      "name": "HQ Icons",
+      "sourceType": "github",
+      "pageUrl": "https://github.com/ixray-community/ixray-hq-icons",
+      "status": "unverified",
+      "parseMode": "github_repo"
+    },
+    {
+      "id": "community.hd_hud",
+      "name": "Renewed Perception / HD HUD",
+      "sourceType": "github",
+      "pageUrl": "https://github.com/ixray-community/ixray-hd-hud",
+      "status": "unverified",
+      "parseMode": "github_repo"
+    }
+  ]
+}

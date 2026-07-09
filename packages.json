@@ -79,7 +79,47 @@
             ]
           }
         ]
-      }
+      },
+      {
+        "id": "community.st-cop-3.7",
+        "name": "ixray-stcop-wp",
+        "author": "ixray-community",
+        "category": "Interface",
+        "pageUrl": "https://github.com/ixray-community/ixray-stcop-wp",
+        "status": "unverified",
+        "supportedGameIds": ["cop"],
+        "engineSupport": {
+          "min": "r1.3.4",
+          "max": ""
+        },
+        "versions": [
+          {
+            "version": "1.1",
+            "engineSupport": {
+              "min": "r1.3.4",
+              "max": ""
+            },
+            "platforms": [
+              {
+                "gameId": "cop",
+                "dependencies": [],
+                "sources": [
+                  {
+                    "url": "https://codeload.github.com/ixray-community/ixray-stcop-wp/zip/refs/tags/v1.0",
+                    "sha256": "",
+                    "mirrors": [
+                      {
+                        "url": "https://github.com/ixray-community/ixray-stcop-wp/releases/download/r1.0/ixray-stcop-wp-v3.7-r1.0.7z",
+                        "sha256": ""
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }   
     ],
     "community": []
   }

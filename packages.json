@@ -1,21 +1,45 @@
 {
-  "official": [
-    {
-      "id": "community.hq_icons",
-      "name": "HQ Icons",
-      "sourceType": "github",
-      "pageUrl": "https://github.com/ixray-community/ixray-hq-icons",
-      "status": "unverified",
-      "parseMode": "github_repo"
-    },
-    {
-      "id": "community.hd_hud",
-      "name": "Renewed Perception / HD HUD",
-      "sourceType": "github",
-      "pageUrl": "https://github.com/ixray-community/ixray-hd-hud",
-      "status": "unverified",
-      "parseMode": "github_repo"
-    }
-  ],
+    "official": [
+      {
+        "id": "community.hq_icons",
+        "name": "HQ Icons",
+        "author": "ixray-community",
+        "category": "Interface",
+        "pageUrl": "https://github.com/ixray-community/ixray-hq-icons",
+        "status": "unverified",
+        "supportedGameIds": ["cop"],
+        "engineSupport": {
+          "min": "r1.3.4",
+          "max": ""
+        },
+        "versions": [
+          {
+            "version": "2.0",
+            "engineSupport": {
+              "min": "r1.3.4",
+              "max": ""
+            },
+            "platforms": [
+              {
+                "gameId": "cop",
+                "dependencies": [],
+                "sources": [
+                  {
+                    "url": "https://codeload.github.com/ixray-community/ixray-hq-icons/zip/refs/tags/v2.0",
+                    "sha256": "",
+                    "mirrors": [
+                      {
+                        "url": "https://github.com/ixray-community/ixray-hq-icons/releases/download/v2.0/ixray-hq-icons-v2.0.zip",
+                        "sha256": ""
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ],
     "community": []
-}
+  }

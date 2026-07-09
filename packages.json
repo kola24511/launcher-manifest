@@ -39,6 +39,46 @@
             ]
           }
         ]
+      },
+      {
+        "id": "community.hd_hud",
+        "name": "HD HUD",
+        "author": "ixray-community",
+        "category": "Interface",
+        "pageUrl": "https://github.com/ixray-community/ixray-hd-hud",
+        "status": "unverified",
+        "supportedGameIds": ["cop"],
+        "engineSupport": {
+          "min": "r1.3.4",
+          "max": ""
+        },
+        "versions": [
+          {
+            "version": "1.1",
+            "engineSupport": {
+              "min": "r1.3.4",
+              "max": ""
+            },
+            "platforms": [
+              {
+                "gameId": "cop",
+                "dependencies": [],
+                "sources": [
+                  {
+                    "url": "https://codeload.github.com/ixray-community/ixray-hd-hud/zip/refs/tags/v1.1",
+                    "sha256": "",
+                    "mirrors": [
+                      {
+                        "url": "https://github.com/ixray-community/ixray-hd-hud/releases/download/v1.1/ixray-hd-hud-v1.1.zip",
+                        "sha256": ""
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
       }
     ],
     "community": []

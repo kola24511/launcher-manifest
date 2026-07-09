@@ -1,0 +1,19 @@
+{
+  "platforms": [
+    {
+      "id": "cop",
+      "name": "Зов Припяти",
+      "gamedata": "gamedata"
+    },
+    {
+      "id": "cs",
+      "name": "Чистое Небо",
+      "gamedata": "gamedata_cs"
+    },
+    {
+      "id": "soc",
+      "name": "Тень Чернобыля",
+      "gamedata": "gamedata_soc"
+    }
+  ]
+}

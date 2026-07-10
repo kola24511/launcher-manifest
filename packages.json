@@ -6,7 +6,7 @@
         "author": "ixray-community",
         "category": "Interface",
         "pageUrl": "https://github.com/ixray-community/ixray-hq-icons",
-        "status": "unverified",
+        "status": "verified",
         "supportedGameIds": ["cop"],
         "engineSupport": {
           "min": "r1.3.4",
@@ -44,19 +44,19 @@
         "id": "community.hd_hud",
         "name": "HD HUD",
         "author": "ixray-community",
-        "category": "Interface",
+        "category": "verified",
         "pageUrl": "https://github.com/ixray-community/ixray-hd-hud",
         "status": "unverified",
         "supportedGameIds": ["cop"],
         "engineSupport": {
-          "min": "r1.3.4",
+          "min": "r1.3",
           "max": ""
         },
         "versions": [
           {
             "version": "1.1",
             "engineSupport": {
-              "min": "r1.3.4",
+              "min": "r1.3",
               "max": ""
             },
             "platforms": [
@@ -84,19 +84,19 @@
         "id": "community.st-cop-3.7",
         "name": "ixray-stcop-wp",
         "author": "ixray-community",
-        "category": "Interface",
+        "category": "Guns",
         "pageUrl": "https://github.com/ixray-community/ixray-stcop-wp",
         "status": "unverified",
         "supportedGameIds": ["cop"],
         "engineSupport": {
-          "min": "r1.3.4",
+          "min": "r1.3",
           "max": ""
         },
         "versions": [
           {
             "version": "1.0",
             "engineSupport": {
-              "min": "r1.3.4",
+              "min": "r1.3",
               "max": ""
             },
             "platforms": [
@@ -124,7 +124,7 @@
         "id": "community.ixray-legs-addon",
         "name": "ixray-legs-addon",
         "author": "ixray-community",
-        "category": "Interface",
+        "category": "Huy znaet",
         "pageUrl": "https://github.com/ixray-community/ixray-legs-addon",
         "status": "unverified",
         "supportedGameIds": ["cop"],
@@ -134,9 +134,9 @@
         },
         "versions": [
           {
-            "version": "1.0",
+            "version": "1.1",
             "engineSupport": {
-              "min": "r1.3.4",
+              "min": "r1.3",
               "max": ""
             },
             "platforms": [
@@ -164,19 +164,19 @@
         "id": "community.ixray-fixed-weapons",
         "name": "ixray-fixed-weapons",
         "author": "ixray-community",
-        "category": "Interface",
+        "category": "Guns",
         "pageUrl": "https://github.com/ixray-community/ixray-fixed-weapons",
         "status": "unverified",
         "supportedGameIds": ["cop"],
         "engineSupport": {
-          "min": "r1.3.4",
+          "min": "r1.3",
           "max": ""
         },
         "versions": [
           {
-            "version": "1.0",
+            "version": "2.1",
             "engineSupport": {
-              "min": "r1.3.4",
+              "min": "r1.3",
               "max": ""
             },
             "platforms": [
@@ -204,19 +204,19 @@
         "id": "community.ixray-paradox-weather-unit",
         "name": "ixray-paradox-weather-unit",
         "author": "ixray-community",
-        "category": "Interface",
+        "category": "Weather",
         "pageUrl": "https://github.com/ixray-community/ixray-paradox-weather-unit",
         "status": "unverified",
         "supportedGameIds": ["cop"],
         "engineSupport": {
-          "min": "r1.3.4",
+          "min": "r1.3",
           "max": ""
         },
         "versions": [
           {
-            "version": "1.0",
+            "version": "2.3",
             "engineSupport": {
-              "min": "r1.3.4",
+              "min": "r1.3",
               "max": ""
             },
             "platforms": [
@@ -230,6 +230,211 @@
                     "mirrors": [
                       {
                         "url": "https://github.com/ixray-community/ixray-paradox-weather-unit/releases/download/v2.3/ixray-paradox-weather-unit-v2.3.zip",
+                        "sha256": ""
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "conflicts": [
+          "community.ixray-cgim2",
+          "community.ixray-atmosfear-3",
+          "community.ixray-swtc"
+        ]
+      },
+      {
+        "id": "community.ixray-cgim2",
+        "name": "ixray-cgim2",
+        "author": "ixray-community",
+        "category": "Weather",
+        "pageUrl": "https://github.com/ixray-community/ixray-cgim2",
+        "status": "unverified",
+        "supportedGameIds": ["cop"],
+        "engineSupport": {
+          "min": "r1.3",
+          "max": ""
+        },
+        "versions": [
+          {
+            "version": "1.0",
+            "engineSupport": {
+              "min": "r1.3",
+              "max": ""
+            },
+            "platforms": [
+              {
+                "gameId": "cop",
+                "dependencies": [],
+                "sources": [
+                  {
+                    "url": "https://codeload.github.com/ixray-community/ixray-cgim2/zip/refs/tags/v1.0",
+                    "sha256": "",
+                    "mirrors": [
+                      {
+                        "url": "https://github.com/ixray-community/ixray-cgim2/releases/download/r1.0/ixray-cgim-r1.0.zip",
+                        "sha256": ""
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "community.ixray-swtc",
+        "name": "ixray-swtc",
+        "author": "ixray-community",
+        "category": "Weather",
+        "pageUrl": "https://github.com/ixray-community/ixray-swtc",
+        "status": "unverified",
+        "supportedGameIds": ["cop"],
+        "engineSupport": {
+          "min": "r1.3",
+          "max": ""
+        },
+        "versions": [
+          {
+            "version": "1.0",
+            "engineSupport": {
+              "min": "r1.3",
+              "max": ""
+            },
+            "platforms": [
+              {
+                "gameId": "cop",
+                "dependencies": [],
+                "sources": [
+                  {
+                    "url": "https://codeload.github.com/ixray-community/ixray-swtc/zip/refs/tags/v1.0",
+                    "sha256": "",
+                    "mirrors": [
+                      {
+                        "url": "https://github.com/ixray-community/ixray-swtc/releases/download/r1.0/ixray-swtc-r1.0.zip",
+                        "sha256": ""
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      { 
+        "id": "community.ixray-atmosfear-3",
+        "name": "ixray-atmosfear-3",
+        "author": "ixray-community",
+        "category": "Weather",
+        "pageUrl": "https://github.com/ixray-community/ixray-atmosfear-3",
+        "status": "unverified",
+        "supportedGameIds": ["cop"],
+        "engineSupport": {
+          "min": "r1.3",
+          "max": ""
+        },
+        "versions": [
+          {
+            "version": "1.0",
+            "engineSupport": {
+              "min": "r1.3",
+              "max": ""
+            },
+            "platforms": [
+              {
+                "gameId": "cop",
+                "dependencies": [],
+                "sources": [
+                  {
+                    "url": "https://codeload.github.com/ixray-community/ixray-atmosfear-3/zip/refs/tags/v1.0",
+                    "sha256": "",
+                    "mirrors": [
+                      {
+                        "url": "https://github.com/ixray-community/ixray-atmosfear-3/releases/download/r1.0/ixray-atmosfear-3-r1.0.zip",
+                        "sha256": ""
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      { 
+        "id": "community.ixray-puddles",
+        "name": "ixray-puddles",
+        "author": "ixray-community",
+        "category": "Weather",
+        "pageUrl": "https://github.com/ixray-community/ixray-puddles",
+        "status": "unverified",
+        "supportedGameIds": ["cop"],
+        "engineSupport": {
+          "min": "r1.1",
+          "max": ""
+        },
+        "versions": [
+          {
+            "version": "2.1",
+            "engineSupport": {
+              "min": "r1.1",
+              "max": ""
+            },
+            "platforms": [
+              {
+                "gameId": "cop",
+                "dependencies": [],
+                "sources": [
+                  {
+                    "url": "https://codeload.github.com/ixray-community/ixray-puddles/zip/refs/tags/v2.1",
+                    "sha256": "",
+                    "mirrors": [
+                      {
+                        "url": "https://github.com/ixray-community/ixray-puddles/releases/download/r2.1/ixray-puddles-r2.1.zip",
+                        "sha256": ""
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      { 
+        "id": "community.ixray-smooth-fade",
+        "name": "ixray-smooth-fade",
+        "author": "ixray-community",
+        "category": "Game",
+        "pageUrl": "https://github.com/ixray-community/ixray-smooth-fade",
+        "status": "unverified",
+        "supportedGameIds": ["cop"],
+        "engineSupport": {
+          "min": "r1.0",
+          "max": ""
+        },
+        "versions": [
+          {
+            "version": "1.0",
+            "engineSupport": {
+              "min": "r1.0",
+              "max": ""
+            },
+            "platforms": [
+              {
+                "gameId": "cop",
+                "dependencies": [],
+                "sources": [
+                  {
+                    "url": "https://codeload.github.com/ixray-community/ixray-smooth-fade/zip/refs/tags/v1.0",
+                    "sha256": "",
+                    "mirrors": [
+                      {
+                        "url": "https://github.com/ixray-community/ixray-smooth-fade/releases/download/r1.0/ixray-smooth-fade-r1.0.zip",
                         "sha256": ""
                       }
                     ]

@@ -6,7 +6,7 @@
         "shortName": "CoP",
         "status": "available",
         "gamedata": "gamedata",
-        "engineSupport": { "min": "r1.3.4", "max": "" }
+        "engineSupport": { "min": "r1.0", "max": "" }
       },
       {
         "id": "cs",
@@ -14,7 +14,7 @@
         "shortName": "CS",
         "status": "soon",
         "gamedata": "gamedata_cs",
-        "engineSupport": { "min": "", "max": "" }
+        "engineSupport": { "min": "1.4", "max": "" }
       },
       {
         "id": "soc",

@@ -119,7 +119,127 @@
             ]
           }
         ]
-      }   
+      },
+      {
+        "id": "community.ixray-legs-addon",
+        "name": "ixray-legs-addon",
+        "author": "ixray-community",
+        "category": "Interface",
+        "pageUrl": "https://github.com/ixray-community/ixray-legs-addon",
+        "status": "unverified",
+        "supportedGameIds": ["cop"],
+        "engineSupport": {
+          "min": "r1.3.4",
+          "max": ""
+        },
+        "versions": [
+          {
+            "version": "1.0",
+            "engineSupport": {
+              "min": "r1.3.4",
+              "max": ""
+            },
+            "platforms": [
+              {
+                "gameId": "cop",
+                "dependencies": [],
+                "sources": [
+                  {
+                    "url": "https://codeload.github.com/ixray-community/ixray-legs-addon/zip/refs/tags/v1.1",
+                    "sha256": "",
+                    "mirrors": [
+                      {
+                        "url": "https://github.com/ixray-community/ixray-legs-addon/releases/download/v1.1/ixray-legs-addon-v1.1.zip",
+                        "sha256": ""
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "community.ixray-fixed-weapons",
+        "name": "ixray-fixed-weapons",
+        "author": "ixray-community",
+        "category": "Interface",
+        "pageUrl": "https://github.com/ixray-community/ixray-fixed-weapons",
+        "status": "unverified",
+        "supportedGameIds": ["cop"],
+        "engineSupport": {
+          "min": "r1.3.4",
+          "max": ""
+        },
+        "versions": [
+          {
+            "version": "1.0",
+            "engineSupport": {
+              "min": "r1.3.4",
+              "max": ""
+            },
+            "platforms": [
+              {
+                "gameId": "cop",
+                "dependencies": [],
+                "sources": [
+                  {
+                    "url": "https://codeload.github.com/ixray-community/ixray-fixed-weapons/zip/refs/tags/v2.1",
+                    "sha256": "",
+                    "mirrors": [
+                      {
+                        "url": "https://github.com/ixray-community/ixray-fixed-weapons/releases/download/v2.1/ixray-fixed-weapons-v2.1.zip",
+                        "sha256": ""
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "community.ixray-paradox-weather-unit",
+        "name": "ixray-paradox-weather-unit",
+        "author": "ixray-community",
+        "category": "Interface",
+        "pageUrl": "https://github.com/ixray-community/ixray-paradox-weather-unit",
+        "status": "unverified",
+        "supportedGameIds": ["cop"],
+        "engineSupport": {
+          "min": "r1.3.4",
+          "max": ""
+        },
+        "versions": [
+          {
+            "version": "1.0",
+            "engineSupport": {
+              "min": "r1.3.4",
+              "max": ""
+            },
+            "platforms": [
+              {
+                "gameId": "cop",
+                "dependencies": [],
+                "sources": [
+                  {
+                    "url": "https://codeload.github.com/ixray-community/ixray-paradox-weather-unit/zip/refs/tags/v2.3",
+                    "sha256": "",
+                    "mirrors": [
+                      {
+                        "url": "https://github.com/ixray-community/ixray-paradox-weather-unit/releases/download/v2.3/ixray-paradox-weather-unit-v2.3.zip",
+                        "sha256": ""
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
     ],
     "community": []
   }

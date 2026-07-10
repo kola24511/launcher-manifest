@@ -1,19 +1,28 @@
 {
-  "platforms": [
-    {
-      "id": "cop",
-      "name": "Зов Припяти",
-      "gamedata": "gamedata"
-    },
-    {
-      "id": "cs",
-      "name": "Чистое Небо",
-      "gamedata": "gamedata_cs"
-    },
-    {
-      "id": "soc",
-      "name": "Тень Чернобыля",
-      "gamedata": "gamedata_soc"
-    }
-  ]
-}
+    "platforms": [
+      {
+        "id": "cop",
+        "name": "Зов Припяти",
+        "shortName": "CoP",
+        "status": "available",
+        "gamedata": "gamedata",
+        "engineSupport": { "min": "r1.3.4", "max": "" }
+      },
+      {
+        "id": "cs",
+        "name": "Чистое Небо",
+        "shortName": "CS",
+        "status": "soon",
+        "gamedata": "gamedata_cs",
+        "engineSupport": { "min": "", "max": "" }
+      },
+      {
+        "id": "soc",
+        "name": "Тень Чернобыля",
+        "shortName": "SoC",
+        "status": "soon",
+        "gamedata": "gamedata_soc",
+        "engineSupport": { "min": "", "max": "" }
+      }
+    ]
+  }

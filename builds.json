@@ -1,37 +1,19 @@
  {
     "builds": [
       {
-        "id": "community.gamma",
-        "name": "GAMMA WTF",
+        "id": "community.official",
+        "name": "Official build",
         "supportedGameIds": ["cop"],
-        "engineSupport": { "min": "r1.3.4", "max": "" },
+        "engineSupport": { "min": "r1.3.5", "max": "" },
         "versions": [
           {
             "version": "1.0",
             "packages": [
-              { "id": "community.hd_hud", "version": "1.1" },
+              { "id": "community.hd_hud", "version": "1.2" },
               { "id": "community.hq_icons", "version": "2.0" },
               { "id": "community.ixray-legs-addon", "version": "1.1" },
               { "id": "community.ixray-fixed-weapons", "version": "2.1" },
               { "id": "community.ixray-paradox-weather-unit", "version": "2.3" }
-            ]
-          }
-        ]
-      },
-      {
-        "id": "community.test",
-        "name": "TEST SBORKA",
-        "supportedGameIds": ["cop"],
-        "engineSupport": { "min": "r1.3.1", "max": "" },
-        "versions": [
-          {
-            "version": "1.0",
-            "packages": [
-              { "id": "community.hd_hud", "version": "1.1" },
-              { "id": "community.hq_icons", "version": "2.0" },
-              { "id": "community.ixray-legs-addon", "version": "1.1" },
-              { "id": "community.ixray-puddles", "version": "2.1" },
-              { "id": "community.ixray-cgim2", "version": "1.0" }
             ]
           }
         ]

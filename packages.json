@@ -77,6 +77,31 @@
                 ]
               }
             ]
+          },
+          {
+            "version": "1.2",
+            "engineSupport": {
+              "min": "r1.3.5",
+              "max": ""
+            },
+            "platforms": [
+              {
+                "gameId": "cop",
+                "dependencies": [],
+                "sources": [
+                  {
+                    "url": "https://codeload.github.com/ixray-community/ixray-hd-hud/zip/refs/tags/v1.2",
+                    "sha256": "",
+                    "mirrors": [
+                      {
+                        "url": "https://github.com/ixray-community/ixray-hd-hud/releases/download/v1.1/ixray-hd-hud-v1.2.zip",
+                        "sha256": ""
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
           }
         ]
       },

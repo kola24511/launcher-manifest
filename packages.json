@@ -232,7 +232,7 @@
         "category": "Weather",
         "pageUrl": "https://github.com/ixray-community/ixray-paradox-weather-unit",
         "status": "unverified",
-        "supportedGameIds": ["cop"],
+        "supportedGameIds": ["cop, cs"],
         "engineSupport": {
           "min": "r1.3",
           "max": ""

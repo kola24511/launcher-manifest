@@ -22,7 +22,7 @@
         "shortName": "SoC",
         "status": "soon",
         "gamedata": "gamedata_soc",
-        "engineSupport": { "min": "", "max": "" }
+        "engineSupport": { "min": "1.4", "max": "" }
       }
     ]
   }

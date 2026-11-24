@@ -14,7 +14,12 @@
         "source": {
           "type": "git",
           "url": "https://github.com/ixray-community/ixray-hq-icons.git",
-          "ref": "refs/tags/v2.0"
+          "ref": "refs/tags/v2.0",
+          "zipMirror": {
+            "url": "https://gh-proxy.org/https://github.com/ixray-community/ixray-hq-icons/archive/8a9f1d76f1d2c169cb0ad99d4f1ebda23865658d.zip",
+            "commit": "8a9f1d76f1d2c169cb0ad99d4f1ebda23865658d",
+            "sha256": "689bdf88b8f1edfddfd38afc81ea88c0bc8b95f428aaedf41dd6fc8f77fb52be"
+          }
         }
       },
       {

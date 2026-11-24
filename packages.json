@@ -68,19 +68,21 @@
         ]
       },
       {
-        "id": "community.st-cop-3.7",
-        "name": "ixray-stcop-wp",
+        "id": "community.st-cop-wp",
+        "name": "STCoP Weapon Pack",
         "author": "ixray-community",
         "category": "Guns",
         "pageUrl": "https://github.com/ixray-community/ixray-stcop-wp",
         "status": "unverified",
-        "supportedGameIds": ["cop"],
+        "supportedGameIds": ["cop", "cs", "soc"],
         "engineSupport": {
           "min": "r1.3"
         },
         "versions": [
           {
             "version": "1.0",
+            "displayVersion": "3.7",
+            "supportedGameIds": ["cop"],
             "platforms": [
               {
                 "gameId": "cop",
@@ -88,6 +90,23 @@
                   {
                     "type": "archive",
                     "url": "https://github.com/ixray-community/ixray-stcop-wp/releases/download/r1.0/ixray-stcop-wp-v3.7-r1.0.7z"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "version": "3.8",
+            "engineSupport": {
+              "min": "r1.4"
+            },
+            "platforms": [
+              {
+                "sources": [
+                  {
+                    "type": "git",
+                    "url": "https://github.com/ixray-community/ixray-stcop-wp.git",
+                    "ref": "refs/heads/v3.8"
                   }
                 ]
               }
@@ -260,7 +279,7 @@
         "gameId": "cop",
         "requires": [
           {
-            "packageId": "community.st-cop-3.7",
+            "packageId": "community.st-cop-wp",
             "version": "1.0"
           },
           {

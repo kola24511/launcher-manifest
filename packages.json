@@ -94,7 +94,13 @@
                 "sources": [
                   {
                     "type": "archive",
-                    "url": "https://github.com/ixray-community/ixray-stcop-wp/releases/download/r1.0/ixray-stcop-wp-v3.7-r1.0.7z"
+                    "url": "https://gh-proxy.org/https://github.com/ixray-community/ixray-stcop-wp/releases/download/r1.0/ixray-stcop-wp-v3.7-r1.0.7z",
+                    "sha256": "81e20d704b9544d3522fed9700e08523b71a85a0259714fa959324148c6eb777",
+                    "mirrors": [
+                      {
+                        "url": "https://github.com/ixray-community/ixray-stcop-wp/releases/download/r1.0/ixray-stcop-wp-v3.7-r1.0.7z"
+                      }
+                    ]
                   }
                 ]
               }
@@ -111,7 +117,12 @@
                   {
                     "type": "git",
                     "url": "https://github.com/ixray-community/ixray-stcop-wp.git",
-                    "ref": "refs/heads/v3.8"
+                    "ref": "refs/heads/v3.8",
+                    "zipMirror": {
+                      "url": "https://gh-proxy.org/https://github.com/ixray-community/ixray-stcop-wp/archive/ae77daae79456864d81ff80b9cac7c9abb02f629.zip",
+                      "commit": "ae77daae79456864d81ff80b9cac7c9abb02f629",
+                      "sha256": "4a0a036320e1fd493be3c3fef57ddf35e0e32e722befbde308b9a09d8e491e0a"
+                    }
                   }
                 ]
               }

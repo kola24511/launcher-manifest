@@ -7,7 +7,7 @@
         "category": "Interface",
         "pageUrl": "https://github.com/ixray-community/ixray-hq-icons",
         "status": "verified",
-        "supportedGameIds": ["cop"],
+        "supportedGameIds": ["cop", "cs"],
         "engineSupport": {
           "min": "r1.3.4"
         },
@@ -24,9 +24,9 @@
       },
       {
         "id": "community.hd_hud",
-        "name": "HD HUD",
+        "name": "Renewed Perception (HD HUD)",
         "author": "ixray-community",
-        "category": "verified",
+        "category": "Interface",
         "pageUrl": "https://github.com/ixray-community/ixray-hd-hud",
         "status": "unverified",
         "supportedGameIds": ["cop"],
@@ -134,7 +134,7 @@
         "id": "community.ixray-legs-addon",
         "name": "ixray-legs-addon",
         "author": "ixray-community",
-        "category": "Huy znaet",
+        "category": "Character",
         "pageUrl": "https://github.com/ixray-community/ixray-legs-addon",
         "status": "unverified",
         "supportedGameIds": ["cop"],
@@ -169,7 +169,7 @@
         "category": "Guns",
         "pageUrl": "https://github.com/ixray-community/ixray-fixed-weapons",
         "status": "unverified",
-        "supportedGameIds": ["cop"],
+        "supportedGameIds": ["cop", "cs"],
         "engineSupport": {
           "min": "r1.3"
         },
@@ -186,7 +186,7 @@
         "category": "Weather",
         "pageUrl": "https://github.com/ixray-community/ixray-paradox-weather-unit",
         "status": "unverified",
-        "supportedGameIds": ["cop, cs"],
+        "supportedGameIds": ["cop", "cs"],
         "engineSupport": {
           "min": "r1.3"
         },
@@ -195,11 +195,7 @@
           "url": "https://github.com/ixray-community/ixray-paradox-weather-unit.git",
           "ref": "refs/tags/v2.3"
         },
-        "conflicts": [
-          "community.ixray-cgim2",
-          "community.ixray-atmosfear-3",
-          "community.ixray-swtc"
-        ]
+        "conflicts": ["community.ixray-cgim2", "community.ixray-atmosfear-3", "community.ixray-swtc", "community.ixray-unofficial-patch"]
       },
       {
         "id": "community.ixray-cgim2",
@@ -208,15 +204,48 @@
         "category": "Weather",
         "pageUrl": "https://github.com/ixray-community/ixray-cgim2",
         "status": "unverified",
-        "supportedGameIds": ["cop"],
+        "supportedGameIds": ["cop", "cs", "soc"],
         "engineSupport": {
           "min": "r1.3"
         },
-        "source": {
-          "type": "git",
-          "url": "https://github.com/ixray-community/ixray-cgim2.git",
-          "ref": "refs/tags/r1.0"
-        }
+        "versions": [
+          {
+            "version": "1.0",
+            "supportedGameIds": ["cop"],
+            "platforms": [
+              {
+                "gameId": "cop",
+                "sources": [
+                  {
+                    "type": "git",
+                    "url": "https://github.com/ixray-community/ixray-cgim2.git",
+                    "ref": "refs/tags/r1.0"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "version": "1.0.0",
+            "displayVersion": "default · IX-Ray 1.4",
+            "supportedGameIds": ["cop", "cs", "soc"],
+            "engineSupport": {
+              "min": "r1.4"
+            },
+            "platforms": [
+              {
+                "sources": [
+                  {
+                    "type": "git",
+                    "url": "https://github.com/ixray-community/ixray-cgim2.git",
+                    "ref": "refs/heads/default"
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "conflicts": ["community.ixray-swtc", "community.ixray-atmosfear-3"]
       },
       {
         "id": "community.ixray-swtc",
@@ -225,32 +254,98 @@
         "category": "Weather",
         "pageUrl": "https://github.com/ixray-community/ixray-swtc",
         "status": "unverified",
-        "supportedGameIds": ["cop"],
+        "supportedGameIds": ["cop", "cs", "soc"],
         "engineSupport": {
           "min": "r1.3"
         },
-        "source": {
-          "type": "git",
-          "url": "https://github.com/ixray-community/ixray-swtc.git",
-          "ref": "refs/tags/r1.0"
-        }
+        "versions": [
+          {
+            "version": "1.0",
+            "supportedGameIds": ["cop"],
+            "platforms": [
+              {
+                "gameId": "cop",
+                "sources": [
+                  {
+                    "type": "git",
+                    "url": "https://github.com/ixray-community/ixray-swtc.git",
+                    "ref": "refs/tags/r1.0"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "version": "1.0.0",
+            "displayVersion": "default · IX-Ray 1.4",
+            "supportedGameIds": ["cop", "cs", "soc"],
+            "engineSupport": {
+              "min": "r1.4"
+            },
+            "platforms": [
+              {
+                "sources": [
+                  {
+                    "type": "git",
+                    "url": "https://github.com/ixray-community/ixray-swtc.git",
+                    "ref": "refs/heads/default"
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "conflicts": ["community.ixray-cgim2", "community.ixray-atmosfear-3"]
       },
-      { 
+      {
         "id": "community.ixray-atmosfear-3",
         "name": "ixray-atmosfear-3",
         "author": "ixray-community",
         "category": "Weather",
         "pageUrl": "https://github.com/ixray-community/ixray-atmosfear-3",
         "status": "unverified",
-        "supportedGameIds": ["cop"],
+        "supportedGameIds": ["cop", "cs", "soc"],
         "engineSupport": {
           "min": "r1.3"
         },
-        "source": {
-          "type": "git",
-          "url": "https://github.com/ixray-community/ixray-atmosfear-3.git",
-          "ref": "refs/tags/r1.0"
-        }
+        "versions": [
+          {
+            "version": "1.0",
+            "supportedGameIds": ["cop"],
+            "platforms": [
+              {
+                "gameId": "cop",
+                "sources": [
+                  {
+                    "type": "git",
+                    "url": "https://github.com/ixray-community/ixray-atmosfear-3.git",
+                    "ref": "refs/tags/r1.0"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "version": "1.0.0",
+            "displayVersion": "default · IX-Ray 1.4",
+            "supportedGameIds": ["cop", "cs", "soc"],
+            "engineSupport": {
+              "min": "r1.4"
+            },
+            "platforms": [
+              {
+                "sources": [
+                  {
+                    "type": "git",
+                    "url": "https://github.com/ixray-community/ixray-atmosfear-3.git",
+                    "ref": "refs/heads/default"
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "conflicts": ["community.ixray-cgim2", "community.ixray-swtc"]
       },
       { 
         "id": "community.ixray-puddles",
@@ -285,6 +380,172 @@
           "url": "https://github.com/ixray-community/ixray-smooth-fade.git",
           "ref": "refs/tags/v1.0"
         }
+      },
+      {
+        "id": "community.ixray-npc-visuals-fix",
+        "name": "NPC Visuals Fix",
+        "author": "ixray-community",
+        "category": "Graphics",
+        "pageUrl": "https://github.com/ixray-community/ixray-npc-visuals-fix",
+        "status": "unverified",
+        "supportedGameIds": ["cop"],
+        "engineSupport": {
+          "min": "r1.0"
+        },
+        "source": {
+          "type": "git",
+          "url": "https://github.com/ixray-community/ixray-npc-visuals-fix.git",
+          "ref": "refs/tags/v1.0"
+        }
+      },
+      {
+        "id": "community.ixray-unofficial-patch",
+        "name": "Unofficial Patch CoP (New Game Required)",
+        "author": "ixray-community",
+        "category": "Fixes",
+        "pageUrl": "https://github.com/ixray-community/ixray-unofficial-patch",
+        "status": "unverified",
+        "supportedGameIds": ["cop"],
+        "engineSupport": {
+          "min": "r1.3"
+        },
+        "source": {
+          "type": "git",
+          "url": "https://github.com/ixray-community/ixray-unofficial-patch.git",
+          "ref": "refs/tags/r1.0"
+        },
+        "conflicts": ["community.ixray-paradox-an4", "community.ixray-paradox-weather-unit"]
+      },
+      {
+        "id": "community.ixray-sound-zones",
+        "name": "Sound Zones",
+        "author": "ixray-community",
+        "category": "Audio",
+        "pageUrl": "https://github.com/ixray-community/ixray-sound-zones",
+        "status": "unverified",
+        "supportedGameIds": ["cop", "cs", "soc"],
+        "engineSupport": {
+          "min": "r1.4"
+        },
+        "source": {
+          "type": "git",
+          "url": "https://github.com/ixray-community/ixray-sound-zones.git",
+          "ref": "refs/heads/default"
+        }
+      },
+      {
+        "id": "community.ixray-subtitles",
+        "name": "Subtitles",
+        "author": "ixray-community",
+        "category": "Interface",
+        "pageUrl": "https://github.com/ixray-community/ixray-subtitles",
+        "status": "unverified",
+        "supportedGameIds": ["cop", "cs"],
+        "engineSupport": {
+          "min": "r1.4"
+        },
+        "source": {
+          "type": "git",
+          "url": "https://github.com/ixray-community/ixray-subtitles.git",
+          "ref": "refs/heads/default"
+        }
+      },
+      {
+        "id": "community.ixray-owr3",
+        "name": "Original Weapons Renewal 3",
+        "author": "ixray-community",
+        "category": "Guns",
+        "pageUrl": "https://github.com/ixray-community/ixray-owr3",
+        "status": "unverified",
+        "supportedGameIds": ["cop", "soc"],
+        "engineSupport": {
+          "min": "r1.4"
+        },
+        "source": {
+          "type": "git",
+          "url": "https://github.com/ixray-community/ixray-owr3.git",
+          "ref": "refs/heads/default"
+        },
+        "conflicts": ["community.st-cop-wp"]
+      },
+      {
+        "id": "community.ixray-soc-new-hud",
+        "name": "SoC New HUD",
+        "author": "ixray-community",
+        "category": "Guns",
+        "pageUrl": "https://github.com/ixray-community/ixray-soc-new-hud",
+        "status": "unverified",
+        "supportedGameIds": ["soc"],
+        "engineSupport": {
+          "min": "r1.4"
+        },
+        "source": {
+          "type": "git",
+          "url": "https://github.com/ixray-community/ixray-soc-new-hud.git",
+          "ref": "refs/heads/default"
+        }
+      },
+      {
+        "id": "community.ixray-paradox-an4",
+        "name": "Paradox Absolute Nature 4",
+        "author": "ixray-community",
+        "category": "Graphics",
+        "pageUrl": "https://github.com/ixray-community/ixray-paradox-weather-unit",
+        "status": "unverified",
+        "supportedGameIds": ["cop"],
+        "engineSupport": {
+          "min": "r1.3"
+        },
+        "folderName": "ixray-paradox-an4",
+        "versions": [
+          {
+            "version": "2.3",
+            "platforms": [
+              {
+                "gameId": "cop",
+                "dependencies": ["community.ixray-paradox-weather-unit"],
+                "sources": [
+                  {
+                    "type": "archive",
+                    "url": "https://github.com/ixray-community/ixray-paradox-weather-unit/releases/download/v2.3/ixray-paradox-an4-v2.3.zip",
+                    "sha256": "08fd215cbbfe90a23ab5ef5fe3a677bdb893827e5047b8f65920cdae6fadf5ad"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "community.ixray-paradox-sfx",
+        "name": "Paradox Sound Effects",
+        "author": "ixray-community",
+        "category": "Audio",
+        "pageUrl": "https://github.com/ixray-community/ixray-paradox-weather-unit",
+        "status": "unverified",
+        "supportedGameIds": ["cop"],
+        "engineSupport": {
+          "min": "r1.3"
+        },
+        "folderName": "ixray-paradox-sfx",
+        "versions": [
+          {
+            "version": "2.3",
+            "platforms": [
+              {
+                "gameId": "cop",
+                "dependencies": ["community.ixray-paradox-weather-unit"],
+                "sources": [
+                  {
+                    "type": "archive",
+                    "url": "https://github.com/ixray-community/ixray-paradox-weather-unit/releases/download/v2.3/ixray-paradox-sfx-v2.3.zip",
+                    "sha256": "89fe8fadbe7c4a478b27fae00e39936183c1cfb9da4f221946c319191ad3585e"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
       }
     ],
     "community": [],

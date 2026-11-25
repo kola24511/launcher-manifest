@@ -227,7 +227,7 @@
           },
           {
             "version": "1.0.0",
-            "displayVersion": "default · IX-Ray 1.4",
+            "displayVersion": "default",
             "supportedGameIds": ["cop", "cs", "soc"],
             "engineSupport": {
               "min": "r1.4"
@@ -277,7 +277,7 @@
           },
           {
             "version": "1.0.0",
-            "displayVersion": "default · IX-Ray 1.4",
+            "displayVersion": "default",
             "supportedGameIds": ["cop", "cs", "soc"],
             "engineSupport": {
               "min": "r1.4"
@@ -327,7 +327,7 @@
           },
           {
             "version": "1.0.0",
-            "displayVersion": "default · IX-Ray 1.4",
+            "displayVersion": "default",
             "supportedGameIds": ["cop", "cs", "soc"],
             "engineSupport": {
               "min": "r1.4"
